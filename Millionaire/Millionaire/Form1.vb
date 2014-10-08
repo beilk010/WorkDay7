@@ -22,6 +22,7 @@ Public Class Form1
             numYears += 1
         Loop Until balance >= 1000000
 
+
         txtWhen.Text = "In " & numYears & " years you will have a million dollars."
     End Sub
 End Class
